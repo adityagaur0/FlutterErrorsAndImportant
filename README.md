@@ -13,10 +13,10 @@ There you can type:
 
 Now when you attempt to pull it will use that configuration and allow you to continue.
 
-There is the possibility that because you do not use the CLI, you may need to download and install git for this to work.
+There is the possibility that because you do not use the CLI, you may need to [download and install git](https://git-scm.com/downloads) for this to work.
 
 Some explanation of choice above if interested:
-I suggested pull.ff true simply because it attempts to fast forward your branch to be up to date with your remote before applying your local commits and if not it will preform a merge from the remote to your local branch. Read docs here. Typically when you pull a branch, add commits, and push. It is in the order assuming your local is up to date with remote. By merging when fast forwarding is not possible, you will see a merge commit informing you of how it was handled. (The other options are to rebase or always merge, many new users find rebase to be less intuitive, but really accomplishes the same thing)
+I suggested pull.ff true simply because it attempts to fast forward your branch to be up to date with your remote before applying your local commits and if not it will preform a merge from the remote to your local branch. [Read docs here](https://git-scm.com/docs/git-pull). Typically when you pull a branch, add commits, and push. It is in the order assuming your local is up to date with remote. By merging when fast forwarding is not possible, you will see a merge commit informing you of how it was handled. (The other options are to rebase or always merge, many new users find rebase to be less intuitive, but really accomplishes the same thing)
 
 I added the --global flag so that your choice will apply to all your repos and you won't see this error message again. Simply omit this if you want a different behavior per repository.
 
