@@ -1,6 +1,6 @@
 # FlutterErrorsAndImportant
 
-## Error Commiting to git
+## 1. Error Commiting to git
 ![image](https://github.com/adityagaur0/FlutterErrorsAndImportant/assets/112656570/32b7ced2-d408-417a-8e16-f560d6c9244c)
 
 We are looking at a more ideal solution for this through Desktop, but in the mean time. For those unfamiliar with using the Command Line Interface (CLI).
@@ -8,7 +8,8 @@ We are looking at a more ideal solution for this through Desktop, but in the mea
 From GitHub Desktop, you can press Ctrl + ` (Also available from the "Repository" main menu as "Open in [Your set terminal]"). This should open up a CLI.
 
 There you can type:
-git config --global  pull.ff true (or any of the other options specified in the error hints).
+
+`git config --global  pull.ff true` (or any of the other options specified in the error hints).
 
 Now when you attempt to pull it will use that configuration and allow you to continue.
 
@@ -20,10 +21,11 @@ I suggested pull.ff true simply because it attempts to fast forward your branch 
 I added the --global flag so that your choice will apply to all your repos and you won't see this error message again. Simply omit this if you want a different behavior per repository.
 
 
-## change minSDKversion
+## 2. change minSDKversion
 1. add to local.properties (flutter.minSdkVersion=22).
    <img width="1440" alt="Screenshot 2023-11-01 at 4 05 42 AM" src="https://github.com/adityagaur0/FlutterErrorsAndImportant/assets/112656570/02c45136-efa1-4e8f-870e-a14b57d14f6d">
 
 2. go to build.Gradle
+   
    `minSdkVersion localProperties.getProperty("flutter.minSdkVersion").toInteger();`
    
