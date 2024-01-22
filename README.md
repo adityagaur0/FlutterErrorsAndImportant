@@ -28,4 +28,16 @@ I added the --global flag so that your choice will apply to all your repos and y
 2. go to build.Gradle
    
    `minSdkVersion localProperties.getProperty("flutter.minSdkVersion").toInteger();`
-   
+
+
+# flutter imp.
+
+### 1. unfocus the keyboard while using text form field.
+```
+GestureDetector(
+      onTap: () {
+        FocusScope.of(context)
+            .unfocus(); // Close the keyboard when tapping outside of a text field
+      },
+      child: Scaffold(
+```
