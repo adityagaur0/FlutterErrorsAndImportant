@@ -41,3 +41,10 @@ GestureDetector(
       },
       child: Scaffold(
 ```
+
+# flutter comments.
+<img width="837" alt="Screenshot 2024-02-19 at 3 16 16 AM" src="https://github.com/adityagaur0/FlutterErrorsAndImportant/assets/112656570/e38c66c2-f032-4d4b-9750-1a93add6f7ae">
+
+<img width="555" alt="Screenshot 2024-02-19 at 3 17 53 AM" src="https://github.com/adityagaur0/FlutterErrorsAndImportant/assets/112656570/6ce6e57b-b19e-42ea-a1d3-464ebe959442">
+
+
