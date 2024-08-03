@@ -49,6 +49,7 @@ GestureDetector(
 
 
 # sha keys
+go to project android -> terminal then type below command
 ```
  keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android
 ```
